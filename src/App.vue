@@ -1,6 +1,7 @@
 <template>
   <section>
     <Sidebar />
+    <router-view class="content"></router-view>
   </section>
 </template>
 
@@ -21,7 +22,18 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
   margin-top: 60px;
 }
+
+.content{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    min-height: min-content;
+}
+
 </style>

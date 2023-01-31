@@ -33,7 +33,6 @@
     <div style="display: flex ; flex-direction:column; justify-content: space-between; flex-grow: 1; max-height: calc(100% - 60px); ">
       <div
         id="my-scroll"
-        style="margin: 6px 14px 0 14px;"
       >
         <ul
           class="nav-list"
@@ -142,31 +141,31 @@
         type: Array,
         default: () => [
           {
-            link: '#',
+            link: '/',
             name: 'แดชบอร์ด',
             tooltip: 'Dashboard',
             icon: 'bx-grid-alt',
           },
           {
-            link: '#',
+            link: '/medicine',
             name: 'ข้อมูลยา',
             tooltip: 'User',
             icon: 'bx bxs-capsule',
           },
           {
-            link: '#',
+            link: '/patient',
             name: 'ข้อมูลผู้ป่วย',
             tooltip: 'Messages',
             icon: 'bx-user',
           },
           {
-            link: '#',
+            link: '/appointment',
             name: 'ตารางนัดหมาย',
             tooltip: 'Analytics',
             icon: 'bx-table',
           },
           {
-            link: '#',
+            link: '/registerpatient',
             name: 'ลงทะเบียนผู้ป่วยใหม่',
             tooltip: 'Files',
             icon: 'bx-user-plus',
